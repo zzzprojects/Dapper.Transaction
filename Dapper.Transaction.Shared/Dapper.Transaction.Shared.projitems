@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>f448faea-4a1d-4432-8343-99c346856dab</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Dapper.Transaction.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)DbTransaction\Extensions\Execute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DbTransaction\Extensions\ExecuteAsync.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DbTransaction\Extensions\ExecuteReader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DbTransaction\Extensions\ExecuteReaderAsync.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DbTransaction\Extensions\ExecuteScalar.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DbTransaction\Extensions\ExecuteScalarAsync.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DbTransaction\Extensions\ExecuteScalarAsync`.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DbTransaction\Extensions\ExecuteScalar`.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DbTransaction\Extensions\Query.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DbTransaction\Extensions\QueryAsync.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DbTransaction\Extensions\QueryAsync`.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DbTransaction\Extensions\QueryFirst.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DbTransaction\Extensions\QueryFirstAsync.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DbTransaction\Extensions\QueryFirstAsync`.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DbTransaction\Extensions\QueryFirstOrDefault.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DbTransaction\Extensions\QueryFirstOrDefaultAsync.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DbTransaction\Extensions\QueryFirstOrDefaultAsync`.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DbTransaction\Extensions\QueryFirstOrDefault`.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DbTransaction\Extensions\QueryFirst`.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DbTransaction\Extensions\QueryMultiple.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DbTransaction\Extensions\QueryMultipleAsync.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DbTransaction\Extensions\QuerySingle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DbTransaction\Extensions\QuerySingleAsync.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DbTransaction\Extensions\QuerySingleAsync`.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DbTransaction\Extensions\QuerySingleOrDefault.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DbTransaction\Extensions\QuerySingleOrDefaultAsync.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DbTransaction\Extensions\QuerySingleOrDefaultAsync`.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DbTransaction\Extensions\QuerySingleOrDefault`.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DbTransaction\Extensions\QuerySingle`.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DbTransaction\Extensions\Query`.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helper\GetConnection.cs" />
+  </ItemGroup>
+</Project>
