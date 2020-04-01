@@ -13,6 +13,10 @@
     <Description>IDbTransaction extension methods for Dapper: A high performance Micro-ORM supporting SQL Server, MySQL, Sqlite, SqlCE, Firebird etc..</Description>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>\bin\Release\netstandard2.0\Dapper.Transaction.xml</DocumentationFile>
+  </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="Dapper" Version="2.0.30" />
   </ItemGroup>
