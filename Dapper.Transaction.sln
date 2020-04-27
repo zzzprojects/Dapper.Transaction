@@ -12,6 +12,7 @@ EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Dapper.Transaction.Shared\Dapper.Transaction.Shared.projitems*{b95951e5-7167-4b34-9cf0-d33ac6178333}*SharedItemsImports = 4
+		Dapper.Transaction.Shared\Dapper.Transaction.Shared.projitems*{cd7f87a2-bcf6-48c9-96af-86f32f7af318}*SharedItemsImports = 5
 		Dapper.Transaction.Shared\Dapper.Transaction.Shared.projitems*{f448faea-4a1d-4432-8343-99c346856dab}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
