@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>..\Key.snk</AssemblyOriginatorKeyFile>
-    <Version>2.0.30-beta1</Version>
+    <Version>2.0.35</Version>
     <PackageId>Dapper.Transaction</PackageId>
     <Authors>ZZZ Projects</Authors>
     <Company>Dapper.Transaction</Company>
