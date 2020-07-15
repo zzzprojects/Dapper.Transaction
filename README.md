@@ -29,21 +29,22 @@ using (var connection = new SqlConnection(FiddleHelper.GetConnectionStringSqlSer
 ```
 
 ## Method Supported
-Execute
-ExecuteAsync
-ExecuteReader
-ExecuteReaderAsync
-ExecuteScalar
-ExecuteScalarAsync
-Query
-QueryAsync
-QueryFirst
-QueryFirstAsync
-QueryFirstOrDefault
-QueryFirstOrDefaultAsync
-QuerySingle
-QuerySingleAsync
-QuerySingleOrDefault
-QuerySingleOrDefaultAsync
-QueryMultiple
-QueryMultipleAsync
+
+- Execute
+- ExecuteAsync
+- ExecuteReader
+- ExecuteReaderAsync
+- ExecuteScalar
+- ExecuteScalarAsync
+- Query
+- QueryAsync
+- QueryFirst
+- QueryFirstAsync
+- QueryFirstOrDefault
+- QueryFirstOrDefaultAsync
+- QuerySingle
+- QuerySingleAsync
+- QuerySingleOrDefault
+- QuerySingleOrDefaultAsync
+- QueryMultiple
+- QueryMultipleAsync
