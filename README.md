@@ -1,7 +1,7 @@
 # Dapper.Transaction
 Dapper.Transaction
 
-Nuget:
+NuGet:
 
 - https://www.nuget.org/packages/Dapper.Transaction/
 - https://www.nuget.org/packages/Dapper.Transaction.StrongName/
