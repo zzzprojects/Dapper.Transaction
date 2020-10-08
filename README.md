@@ -1,7 +1,10 @@
 # Dapper.Transaction
 Dapper.Transaction
 
-https://www.nuget.org/packages/Dapper.Transaction/
+Nuget:
+
+- https://www.nuget.org/packages/Dapper.Transaction/
+- https://www.nuget.org/packages/Dapper.Transaction.StrongName/
 
 ## What's Dapper Transaction?
 Dapper Transaction is exactly like Dapper but extend the IDbTransaction interface instead and use Dapper under the hood.
