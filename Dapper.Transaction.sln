@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper.Transaction.Net461",
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Dapper.Transaction.Shared", "Dapper.Transaction.Shared\Dapper.Transaction.Shared.shproj", "{F448FAEA-4A1D-4432-8343-99C346856DAB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab", "Lab\Lab.csproj", "{31A63124-67D2-4427-8CF9-73FC1521F638}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Dapper.Transaction.Shared\Dapper.Transaction.Shared.projitems*{b95951e5-7167-4b34-9cf0-d33ac6178333}*SharedItemsImports = 4
@@ -28,6 +30,10 @@ Global
 		{B95951E5-7167-4B34-9CF0-D33AC6178333}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B95951E5-7167-4B34-9CF0-D33AC6178333}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B95951E5-7167-4B34-9CF0-D33AC6178333}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31A63124-67D2-4427-8CF9-73FC1521F638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31A63124-67D2-4427-8CF9-73FC1521F638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31A63124-67D2-4427-8CF9-73FC1521F638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31A63124-67D2-4427-8CF9-73FC1521F638}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
