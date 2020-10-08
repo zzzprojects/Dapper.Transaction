@@ -2,13 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <SignAssembly>false</SignAssembly>
+    <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>..\Key.snk</AssemblyOriginatorKeyFile>
     <Version>2.0.35</Version>
     <PackageId>Dapper.Transaction</PackageId>
     <Authors>ZZZ Projects</Authors>
     <Company>Dapper.Transaction</Company>
-    <AssemblyName>Dapper.Transaction</AssemblyName>
+    <AssemblyName>Dapper.Transaction.StrongName</AssemblyName>
     <RootNamespace>Dapper.Transaction</RootNamespace>
     <Description>IDbTransaction extension methods for Dapper: A high performance Micro-ORM supporting SQL Server, MySQL, Sqlite, SqlCE, Firebird etc..</Description>
   </PropertyGroup>
@@ -17,10 +17,10 @@
     <DocumentationFile>\bin\Release\netstandard2.0\Dapper.Transaction.xml</DocumentationFile>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Dapper" Version="2.0.35" />
-  </ItemGroup>
-
   <Import Project="..\Dapper.Transaction.Shared\Dapper.Transaction.Shared.projitems" Label="Shared" />
+
+  <ItemGroup>
+    <PackageReference Include="Dapper.StrongName" Version="2.0.35" />
+  </ItemGroup>
 
 </Project>
