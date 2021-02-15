@@ -23,5 +23,5 @@ Otherwise, make sure to include as much information as possible to help our team
 4. Any further technical details
 Add any relevant detail can help us, such as:
 
-HAP version:
+Version:
 NET version (net45, .net core 3.1, etc.)
