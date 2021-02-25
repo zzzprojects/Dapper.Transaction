@@ -56,7 +56,7 @@ using (var connection = new SqlConnection(FiddleHelper.GetConnectionStringSqlSer
 - QueryMultiple
 - QueryMultipleAsync
 
-## Usefull links
+## Useful links
 
 - [Website](https://dapper-tutorial.net/transaction)
 - [Nugget Dapper Transaction](https://www.nuget.org/packages/Dapper.Transaction/)
