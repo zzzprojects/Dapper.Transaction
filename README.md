@@ -1,10 +1,10 @@
 ## Library Powered By
 
-This library is powered by [Entity Framework Extensions](https://entityframework-extensions.net/?z=github&y=entityframework-plus)
+This library is powered by [Dapper Plus](https://dapper-plus.net/)
 
-<a href="https://entityframework-extensions.net/?z=github&y=entityframework-plus">
+<a href="https://dapper-plus.net/">
 <kbd>
-<img src="https://zzzprojects.github.io/images/logo/entityframework-extensions-pub.jpg" alt="Entity Framework Extensions" />
+<img src="https://zzzprojects.github.io/images/logo/dapper-plus-add.png" alt="Dapper Plus" />
 </kbd>
 </a>
 
