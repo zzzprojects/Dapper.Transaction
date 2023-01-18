@@ -17,8 +17,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper.Transaction.StrongNa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab.StrongName", "Lab.StrongName\Lab.StrongName.csproj", "{094C1B26-A616-4201-9858-B4A0DCBDE883}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper.Transaction.Net5", "Dapper.Transaction.Net5\Dapper.Transaction.Net5.csproj", "{4D305E84-73B4-4548-94FA-0BA73511C777}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper.Transaction.StrongName.Net5", "Dapper.Transaction.StrongName.Net5\Dapper.Transaction.StrongName.Net5.csproj", "{3D45C667-F5B5-4B53-B23D-EEED70889FBE}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Dapper.Transaction.Shared\Dapper.Transaction.Shared.projitems*{3d45c667-f5b5-4b53-b23d-eeed70889fbe}*SharedItemsImports = 5
+		Dapper.Transaction.Shared\Dapper.Transaction.Shared.projitems*{4d305e84-73b4-4548-94fa-0ba73511c777}*SharedItemsImports = 5
 		Dapper.Transaction.Shared\Dapper.Transaction.Shared.projitems*{b8c3b69d-f0d3-49d4-b121-f8765b7f2d23}*SharedItemsImports = 4
 		Dapper.Transaction.Shared\Dapper.Transaction.Shared.projitems*{b95951e5-7167-4b34-9cf0-d33ac6178333}*SharedItemsImports = 4
 		Dapper.Transaction.Shared\Dapper.Transaction.Shared.projitems*{cd7f87a2-bcf6-48c9-96af-86f32f7af318}*SharedItemsImports = 5
@@ -54,6 +60,14 @@ Global
 		{094C1B26-A616-4201-9858-B4A0DCBDE883}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{094C1B26-A616-4201-9858-B4A0DCBDE883}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{094C1B26-A616-4201-9858-B4A0DCBDE883}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D305E84-73B4-4548-94FA-0BA73511C777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D305E84-73B4-4548-94FA-0BA73511C777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D305E84-73B4-4548-94FA-0BA73511C777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D305E84-73B4-4548-94FA-0BA73511C777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D45C667-F5B5-4B53-B23D-EEED70889FBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D45C667-F5B5-4B53-B23D-EEED70889FBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D45C667-F5B5-4B53-B23D-EEED70889FBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D45C667-F5B5-4B53-B23D-EEED70889FBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
