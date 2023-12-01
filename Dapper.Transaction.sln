@@ -17,9 +17,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper.Transaction.StrongNa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab.StrongName", "Lab.StrongName\Lab.StrongName.csproj", "{094C1B26-A616-4201-9858-B4A0DCBDE883}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper.Transaction.Net5", "Dapper.Transaction.Net5\Dapper.Transaction.Net5.csproj", "{4D305E84-73B4-4548-94FA-0BA73511C777}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper.Transaction.Net5", "Dapper.Transaction.Net5\Dapper.Transaction.Net5.csproj", "{4D305E84-73B4-4548-94FA-0BA73511C777}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper.Transaction.StrongName.Net5", "Dapper.Transaction.StrongName.Net5\Dapper.Transaction.StrongName.Net5.csproj", "{3D45C667-F5B5-4B53-B23D-EEED70889FBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper.Transaction.StrongName.Net5", "Dapper.Transaction.StrongName.Net5\Dapper.Transaction.StrongName.Net5.csproj", "{3D45C667-F5B5-4B53-B23D-EEED70889FBE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper.Transaction.Net7", "Dapper.Transaction.Net7\Dapper.Transaction.Net7.csproj", "{D3DA6451-306D-45F0-BDA2-E8678B5118C5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper.Transaction.StrongName.Net7", "Dapper.Transaction.StrongName.Net7\Dapper.Transaction.StrongName.Net7.csproj", "{F470239E-A298-4EEB-8820-43C5573C65F6}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -28,8 +32,10 @@ Global
 		Dapper.Transaction.Shared\Dapper.Transaction.Shared.projitems*{b8c3b69d-f0d3-49d4-b121-f8765b7f2d23}*SharedItemsImports = 4
 		Dapper.Transaction.Shared\Dapper.Transaction.Shared.projitems*{b95951e5-7167-4b34-9cf0-d33ac6178333}*SharedItemsImports = 4
 		Dapper.Transaction.Shared\Dapper.Transaction.Shared.projitems*{cd7f87a2-bcf6-48c9-96af-86f32f7af318}*SharedItemsImports = 5
+		Dapper.Transaction.Shared\Dapper.Transaction.Shared.projitems*{d3da6451-306d-45f0-bda2-e8678b5118c5}*SharedItemsImports = 5
 		Dapper.Transaction.Shared\Dapper.Transaction.Shared.projitems*{d839949b-3985-4cae-86d0-955471dc994d}*SharedItemsImports = 5
 		Dapper.Transaction.Shared\Dapper.Transaction.Shared.projitems*{f448faea-4a1d-4432-8343-99c346856dab}*SharedItemsImports = 13
+		Dapper.Transaction.Shared\Dapper.Transaction.Shared.projitems*{f470239e-a298-4eeb-8820-43c5573c65f6}*SharedItemsImports = 5
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -68,6 +74,14 @@ Global
 		{3D45C667-F5B5-4B53-B23D-EEED70889FBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D45C667-F5B5-4B53-B23D-EEED70889FBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D45C667-F5B5-4B53-B23D-EEED70889FBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3DA6451-306D-45F0-BDA2-E8678B5118C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3DA6451-306D-45F0-BDA2-E8678B5118C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3DA6451-306D-45F0-BDA2-E8678B5118C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3DA6451-306D-45F0-BDA2-E8678B5118C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F470239E-A298-4EEB-8820-43C5573C65F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F470239E-A298-4EEB-8820-43C5573C65F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F470239E-A298-4EEB-8820-43C5573C65F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F470239E-A298-4EEB-8820-43C5573C65F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
