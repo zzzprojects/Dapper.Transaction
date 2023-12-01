@@ -7,6 +7,7 @@
     <Version>2.1.24</Version>
     <Copyright>ZZZ Projects Inc.</Copyright>
     <Company>ZZZ Projects Inc.</Company>
+    <Authors>ZZZ Projects Inc.</Authors>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">

@@ -11,6 +11,7 @@
     <AssemblyName>Dapper.Transaction</AssemblyName>
     <RootNamespace>Dapper.Transaction</RootNamespace>
     <Description>IDbTransaction extension methods for Dapper: A high performance Micro-ORM supporting SQL Server, MySQL, Sqlite, SqlCE, Firebird etc..</Description>
+    <Copyright>ZZZ Projects Inc.</Copyright>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
