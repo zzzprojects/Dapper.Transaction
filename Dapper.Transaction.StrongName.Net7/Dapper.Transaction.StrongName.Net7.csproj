@@ -6,7 +6,7 @@
     <AssemblyOriginatorKeyFile>..\Key.snk</AssemblyOriginatorKeyFile>
     <AssemblyName>Dapper.Transaction.StrongName</AssemblyName>
     <RootNamespace>Dapper.Transaction</RootNamespace>
-    <Version>2.1.24</Version>
+    <Version>2.1.28</Version>
     <Authors>ZZZ Projects Inc.</Authors>
     <Company>ZZZ Projects Inc.</Company>
     <Copyright>ZZZ Projects Inc.</Copyright>
@@ -20,7 +20,7 @@
   <Import Project="..\Dapper.Transaction.Shared\Dapper.Transaction.Shared.projitems" Label="Shared" />
 
   <ItemGroup>
-    <PackageReference Include="Dapper.StrongName" Version="2.1.24" />
+    <PackageReference Include="Dapper.StrongName" Version="2.1.28" />
   </ItemGroup>
 
 </Project>

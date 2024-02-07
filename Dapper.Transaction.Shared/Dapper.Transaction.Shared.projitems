@@ -21,6 +21,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)DbTransaction\Extensions\QueryAsync.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)DbTransaction\Extensions\QueryAsync`.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)DbTransaction\Extensions\QueryFirst.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DbTransaction\Extensions\QueryUnbufferedAsync`.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DbTransaction\Extensions\QueryUnbufferedAsync.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)DbTransaction\Extensions\QueryFirstAsync.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)DbTransaction\Extensions\QueryFirstAsync`.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)DbTransaction\Extensions\QueryFirstOrDefault.cs" />
