@@ -39,7 +39,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Dapper.StrongName, Version=2.0.0.0, Culture=neutral, PublicKeyToken=e3e8412083d25dd3, processorArchitecture=MSIL">
-      <HintPath>..\packages\Dapper.StrongName.2.1.28\lib\net461\Dapper.StrongName.dll</HintPath>
+      <HintPath>..\packages\Dapper.StrongName.2.1.35\lib\net461\Dapper.StrongName.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

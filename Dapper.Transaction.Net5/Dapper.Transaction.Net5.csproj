@@ -4,7 +4,7 @@
     <TargetFramework>net5.0</TargetFramework>
     <AssemblyName>Dapper.Transaction</AssemblyName>
     <RootNamespace>Dapper.Transaction</RootNamespace>
-    <Version>2.1.28</Version>
+    <Version>2.1.35</Version>
     <Copyright>ZZZ Projects Inc.</Copyright>
     <Company>ZZZ Projects Inc.</Company>
     <Authors>ZZZ Projects Inc.</Authors>
@@ -18,7 +18,7 @@
   <Import Project="..\Dapper.Transaction.Shared\Dapper.Transaction.Shared.projitems" Label="Shared" />
 
   <ItemGroup>
-    <PackageReference Include="Dapper" Version="2.1.28" />
+    <PackageReference Include="Dapper" Version="2.1.35" />
   </ItemGroup>
 
 </Project>

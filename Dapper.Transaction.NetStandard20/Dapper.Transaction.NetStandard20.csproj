@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <SignAssembly>false</SignAssembly>
     <AssemblyOriginatorKeyFile>..\Key.snk</AssemblyOriginatorKeyFile>
-    <Version>2.1.28</Version>
+    <Version>2.1.35</Version>
     <PackageId>Dapper.Transaction</PackageId>
     <Authors>ZZZ Projects Inc.</Authors>
     <Company>ZZZ Projects Inc.</Company>
@@ -19,7 +19,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Dapper" Version="2.1.28" />
+    <PackageReference Include="Dapper" Version="2.1.35" />
   </ItemGroup>
 
   <Import Project="..\Dapper.Transaction.Shared\Dapper.Transaction.Shared.projitems" Label="Shared" />
