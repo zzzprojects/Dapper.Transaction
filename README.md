@@ -1,15 +1,3 @@
-## Library Powered By
-
-This library is powered by [Dapper Plus](https://dapper-plus.net/)
-
-<a href="https://dapper-plus.net/">
-<kbd>
-<img src="https://zzzprojects.github.io/images/logo/dapper-plus-add.png" alt="Dapper Plus" />
-</kbd>
-</a>
-
----
-
 ## What's Dapper Transaction?
 Dapper Transaction is exactly like Dapper but extend the IDbTransaction interface instead and use Dapper under the hood.
 
@@ -35,43 +23,37 @@ using (var connection = new SqlConnection(FiddleHelper.GetConnectionStringSqlSer
 }
 ```
 
-## Method Supported
+Read more on our [Website](https://dappertutorial.net/dapper-transaction).
 
-- Execute
-- ExecuteAsync
-- ExecuteReader
-- ExecuteReaderAsync
-- ExecuteScalar
-- ExecuteScalarAsync
-- Query
-- QueryAsync
-- QueryFirst
-- QueryFirstAsync
-- QueryFirstOrDefault
-- QueryFirstOrDefaultAsync
-- QuerySingle
-- QuerySingleAsync
-- QuerySingleOrDefault
-- QuerySingleOrDefaultAsync
-- QueryMultiple
-- QueryMultipleAsync
+## Downloads
 
-## Useful links
+### Dapper.Transaction
 
-- [Website](https://dappertutorial.net/transaction)
-- [Nugget Dapper Transaction](https://www.nuget.org/packages/Dapper.Transaction/)
-- [Nugget Dapper Transaction StrongName](https://www.nuget.org/packages/Dapper.Transaction.StrongName/)
+[![nuget](https://img.shields.io/nuget/v/Dapper.Transaction?logo=nuget&style=flat-square)](https://www.nuget.org/packages/Dapper.Transaction)
+[![nuget](https://img.shields.io/nuget/dt/Dapper.Transaction?logo=nuget&style=flat-square)](https://www.nuget.org/packages/Dapper.Transaction)
 
-## Contribute
+```
+PM> NuGet\Install-Package Dapper.Transaction
+```
 
-The best way to contribute is by **spreading the word** about the library:
+```
+> dotnet add package Dapper.Transaction
+```
 
- - Blog it
- - Comment it
- - Star it
- - Share it
- 
-A **HUGE THANKS** for your help.
+### Dapper.Transaction.StrongName
+
+[![nuget](https://img.shields.io/nuget/v/Dapper.Transaction.StrongName?logo=nuget&style=flat-square)](https://www.nuget.org/packages/Dapper.Transaction.StrongName)
+[![nuget](https://img.shields.io/nuget/dt/Dapper.Transaction.StrongName?logo=nuget&style=flat-square)](https://www.nuget.org/packages/Dapper.Transaction.StrongName)
+
+## Sponsors
+
+ZZZ Projects owns and maintains **Dapper.Transaction** as part of our [mission](https://zzzprojects.com/mission) to add value to the .NET community
+
+Through [Dapper Plus](https://dapper-plus.net/?utm_source=zzzprojects&utm_medium=dappertransaction) and [Entity Framework Extensions](https://entityframework-extensions.net/?utm_source=zzzprojects&utm_medium=dappertransaction), we actively sponsor and help key open-source libraries grow.
+
+[![Dapper Plus](https://raw.githubusercontent.com/zzzprojects/Dapper.Transaction/master/dapper-plus-sponsor.png)](https://dapper-plus.net/bulk-insert?utm_source=zzzprojects&utm_medium=dappertransaction)
+
+[![Entity Framework Extensions](https://raw.githubusercontent.com/zzzprojects/Dapper.Transaction/master/entity-framework-extensions-sponsor.png)](https://entityframework-extensions.net/bulk-insert?utm_source=zzzprojects&utm_medium=dappertransaction)
 
 ## More Projects
 
