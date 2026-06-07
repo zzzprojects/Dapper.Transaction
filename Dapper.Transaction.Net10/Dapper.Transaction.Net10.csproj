@@ -1,12 +1,10 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
-    <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>..\Key.snk</AssemblyOriginatorKeyFile>
-    <AssemblyName>Dapper.Transaction.StrongName</AssemblyName>
+    <TargetFramework>net10.0</TargetFramework>
+    <AssemblyName>Dapper.Transaction</AssemblyName>
     <RootNamespace>Dapper.Transaction</RootNamespace>
-    <Version>2.1.35</Version>
+    <Version>2.1.79</Version>
     <Authors>ZZZ Projects Inc.</Authors>
     <Company>ZZZ Projects Inc.</Company>
     <Copyright>ZZZ Projects Inc.</Copyright>
@@ -14,13 +12,13 @@
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>bin\Release\Dapper.Transaction.StrongName.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\Dapper.Transaction.xml</DocumentationFile>
   </PropertyGroup>
 
   <Import Project="..\Dapper.Transaction.Shared\Dapper.Transaction.Shared.projitems" Label="Shared" />
 
   <ItemGroup>
-    <PackageReference Include="Dapper.StrongName" Version="2.1.35" />
+    <PackageReference Include="Dapper" Version="2.1.79" />
   </ItemGroup>
 
 </Project>

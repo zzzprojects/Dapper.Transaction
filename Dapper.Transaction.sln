@@ -17,13 +17,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper.Transaction.StrongNa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab.StrongName", "Lab.StrongName\Lab.StrongName.csproj", "{094C1B26-A616-4201-9858-B4A0DCBDE883}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper.Transaction.Net5", "Dapper.Transaction.Net5\Dapper.Transaction.Net5.csproj", "{4D305E84-73B4-4548-94FA-0BA73511C777}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper.Transaction.Net8", "Dapper.Transaction.Net8\Dapper.Transaction.Net8.csproj", "{4D305E84-73B4-4548-94FA-0BA73511C777}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper.Transaction.StrongName.Net5", "Dapper.Transaction.StrongName.Net5\Dapper.Transaction.StrongName.Net5.csproj", "{3D45C667-F5B5-4B53-B23D-EEED70889FBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper.Transaction.StrongName.Net8", "Dapper.Transaction.StrongName.Net8\Dapper.Transaction.StrongName.Net8.csproj", "{3D45C667-F5B5-4B53-B23D-EEED70889FBE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper.Transaction.Net7", "Dapper.Transaction.Net7\Dapper.Transaction.Net7.csproj", "{D3DA6451-306D-45F0-BDA2-E8678B5118C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper.Transaction.Net10", "Dapper.Transaction.Net10\Dapper.Transaction.Net10.csproj", "{D3DA6451-306D-45F0-BDA2-E8678B5118C5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper.Transaction.StrongName.Net7", "Dapper.Transaction.StrongName.Net7\Dapper.Transaction.StrongName.Net7.csproj", "{F470239E-A298-4EEB-8820-43C5573C65F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper.Transaction.StrongName.Net10", "Dapper.Transaction.StrongName.Net10\Dapper.Transaction.StrongName.Net10.csproj", "{F470239E-A298-4EEB-8820-43C5573C65F6}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
