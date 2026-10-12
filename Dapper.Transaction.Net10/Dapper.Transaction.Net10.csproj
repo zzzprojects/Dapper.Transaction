@@ -1,10 +1,10 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
     <AssemblyName>Dapper.Transaction</AssemblyName>
     <RootNamespace>Dapper.Transaction</RootNamespace>
-    <Version>2.1.79</Version>
+    <Version>2.1.89</Version>
     <Authors>ZZZ Projects Inc.</Authors>
     <Company>ZZZ Projects Inc.</Company>
     <Copyright>ZZZ Projects Inc.</Copyright>
